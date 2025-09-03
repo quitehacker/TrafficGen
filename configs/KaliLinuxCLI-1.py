@@ -13,7 +13,7 @@ class Conf:
     loglevel = logging.INFO
     
     # Alpine 3 target (adjust IP based on your GNS3 setup)
-    alpine3_ip = '192.168.3.14'  # Alpine 3's IP
+    alpine3_ip = '192.168.3.13'  # Alpine 3's IP
     
     # Test scenarios from KaliLinuxCLI-1 to Alpine 3
     jobdef = [
