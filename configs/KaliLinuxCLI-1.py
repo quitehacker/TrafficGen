@@ -16,7 +16,7 @@ class Conf:
     alpine3_ip = '192.168.3.14'  # Alpine 3's IP
     
     # Test scenarios from KaliLinuxCLI-1 to Alpine 3
-    jobs = [
+    jobdef = [
         # === BASIC CONNECTIVITY ===
         # Ping test every 30 seconds
         ('ping_gen', [(0, 0), (23, 59), (0, 30)], [alpine3_ip, 4]),
